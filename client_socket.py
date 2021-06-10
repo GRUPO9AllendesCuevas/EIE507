@@ -23,8 +23,8 @@ def send(msg):
     client.send(message)
     print(client.recv(2048).decode(FORMAT))
 
-    send('hello')
-    input()
-    send('asdfasdf')
-    input()
-    send(DISCONNECT_MESSAGE)
+send('hello')
+input()
+send('asdfasdf')
+input()
+send(DISCONNECT_MESSAGE)
